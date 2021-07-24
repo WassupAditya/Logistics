@@ -9,3 +9,11 @@ ssh-keygen -t ed25519 -C "aditya249645@gmail.com"
 tail <path to id.rsa.pub> # add this key to your git-hub account
 git remote add origin <ssh url,git>
 git push origin master
+
+
+
+for push 
+
+git add . 
+git commit -m "messege"
+git push origin master
